@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "weather_server": {
+            "type": "streamable-http",
+            "url": "http://localhost:8000/mcp"
+        },
+        "math_server": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--directory", "/Users/minh-dungdang/Projects/AI-ML/agentic-ai/udemy-mcp-mastery-building-ai-apps-mcp-ollama/section04-local-agent",
+                "math_server.py"
+            ]
+        }
+    }
+}
